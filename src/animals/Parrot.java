@@ -1,6 +1,11 @@
 package animals;
 
-public class Parrot extends Bird{
+public final class Parrot extends Bird implements Pet{
+
+
+    public void beCute() {
+        System.out.println("I'm cute, right, Awwwww");
+    }
 
     public void makeNoise(){
         super.makeNoise();
@@ -8,6 +13,9 @@ public class Parrot extends Bird{
     }
     public void echo(String input){
         System.out.println(input);
+    }
+    public Parrot(){
+        System.out.println("A new Parrot has been constructed");
     }
 
 }

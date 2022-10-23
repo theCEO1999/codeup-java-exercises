@@ -11,5 +11,7 @@ public class BirdTest {
         Parrot Polly = new Parrot();
         Polly.makeNoise();
         Polly.echo("I can mimic anything you want me to say");
+        Polly.beCute();
+
     }
 }

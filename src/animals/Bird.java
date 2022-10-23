@@ -18,4 +18,7 @@ public class Bird {
     public void makeNoise(){
         System.out.println("caca caca");
     }
+    public Bird(){
+        System.out.println("A new Bird has been constructed");
+    }
 }
