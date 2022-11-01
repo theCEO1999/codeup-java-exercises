@@ -51,7 +51,7 @@ public class Input {
     }
     public int getInt(){
         System.out.println("Enter an integer: ");
-        return scanner.nextInt();
+        return Integer.valueOf(getString());
     }
 
 
