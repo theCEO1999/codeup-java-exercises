@@ -22,6 +22,7 @@ public class Practice {
         return number - 10;
     }
 
+
     public static void main(String[] args) {
         System.out.println(subtractTen(20));
         int[] numbers = {5, 10, 15};
